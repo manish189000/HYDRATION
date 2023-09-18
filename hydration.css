@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.column1 {
+    flex: 33.33%;
+    height: 990px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 0;
+    padding: 60px;
+}
+
+.column2 {
+    flex: 90%;
+    height: 990px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.column3 {
+    flex: 33.33%;
+    height: 990px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cccccc;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+
+.image img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+
+.txt {
+
+    background: rgb(213, 209, 209) 50% / cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+.text2 {
+    color: #3629B7;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 1;
+    line-height: normal;
+    padding-top: 60px;
+    text-align: left;
+
+
+
+
+}
+
+.menu-content {
+
+
+    display: flex;
+    color: #838383;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 6;
+    line-height: normal;
+    padding-top: 40px;
+
+
+
+
+
+}
+
+.side-content {
+    padding-left: 20px;
+}
+
+.author {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: #494949;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-top: 100%;
+
+}
+
+.down-text {}
+
+.down-text li {
+    /* text-align: left; */
+}
+
+li.bold {
+    font-size: 25px;
+}
+
+.three-dots {
+    padding-bottom: 20px;
+}
+
+.column2 {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.mathewtext {
+    color: var(--primary-1, #3629B7);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.search-bar {
+    width: 300px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #E7E7E7;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.search-input::placeholder {
+    color: #888;
+}
+
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.textsearch {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.suntext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background: #F7F9FD;
+    padding: 20px;
+
+}
+
+.degree {
+    color: var(--light-black, #11263C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.itssunny {
+    color: var(--light-black, #11263C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sunnydaytext {
+    color: var(--light-black, #070708);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.donoatefrogate {
+    color: #8E8F8F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    /* Add spacing between boxes */
+    display: flex;
+}
+
+.containerrect {
+    display: flex;
+}
+
+/* Define different background colors for each box */
+.box:nth-child(1) {
+    background-color: #EDFFEF;
+    ;
+    width: 244px;
+    height: 88px;
+}
+
+.box:nth-child(2) {
+    background-color: #F4F2FF;
+    width: 244px;
+    height: 88px;
+}
+
+.box:nth-child(3) {
+    background-color: #FFF2EC;
+    width: 244px;
+    height: 88px;
+
+}
+
+.progress-container {
+    width: 244px;
+    height: 88px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.progress-circle {
+    width: 50px;
+    /* Adjust this value to set the circle's size */
+    height: 50px;
+    /* Should match the width for a perfect circle */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-image {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    /* Ensure the image covers the circular container */
+    transform: rotate(0deg);
+    /* Rotate the image 45 degrees to make it diagonal */
+    padding-left: 5px;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+    color: #9B715D;
+}
+
+img {
+    size: 12px;
+    ;
+}
+
+.text3 {
+
+    list-style-type: none;
+    color: #55A55E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.rdcolum-container {
+    display: flex;
+    color: var(--primary-1, #3629B7);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.column-third-middle {
+    display: flex;
+    background-image: url("/images/base rect. (1).png");
+    width: 260px;
+    height: 214px;
+    margin-top: 90px;
+
+    justify-content: space-between;
+
+
+}
+
+.pargraph-rightside {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-wrap: break-word;
+    list-style-type: none;
+    padding-right: 40px;
+
+
+}
+
+
+.image53 {
+
+    width: 60px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    bottom: 60px;
+    padding-left: 40px;
+    ;
+
+}
+
+
+.intake-goal {
+
+    list-style-type: none;
+    border-radius: 12px;
+    background: #3546B1;
+    width: 260px;
+    height: 133px;
+    flex-shrink: 0;
+    margin-top: 22px;
+    padding-top: 22px;
+}
+
+.goal {
+    color: #F2F4F7;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.goal1 {
+
+    color: #F2F4F7;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.bootom-thirdcontainer {
+
+    width: 260px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F7F9FD;
+    margin-top: 20px;
+
+
+}
+
+.thridcontainer-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.thrid-leftposition {
+    color: #3629B7;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rectangular-box-white {
+    margin: 10px;
+    margin-left: 20px;
+    ;
+    display: flex;
+    width: 212px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 2.72px 3.712px 0px rgba(0, 0, 0, 0.01), 0px 12.16px 8.576px 0px rgba(0, 0, 0, 0.01), 30px 30.24px 20px 0px rgba(0, 0, 0, 0.02);
+}
+
+
+.inside-box {
+
+    display: flex;
+}
+
+.clockeight {
+    padding-left: 80px;
+}
+
+.downimg {
+    text-align: center;
+}

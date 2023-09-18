@@ -1,0 +1,209 @@
+!DOCTYPE html>
+<!--<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circular Progress Bar</title>
+<style>
+  .progress-container {
+    width: 244px;
+    height: 88px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .progress-circle {
+    width: 100px; /* Adjust this value to set the circle's size */
+    height: 100px; /* Should match the width for a perfect circle */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .progress-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the circular container */
+    transform: rotate(45deg); /* Rotate the image 45 degrees to make it diagonal */
+  }
+
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+  }
+</style>
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-circle">
+      <img src="/Ellipse 69.png" alt="Progress Image" class="progress-image">
+      <span class="progress-text">50%</span>
+    </div>
+  </div>
+</body>
+</html>-->
+
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangular Boxes</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            /* Add spacing between boxes */
+            display: flex;
+        }
+
+        .containerrect {
+            display: flex;
+        }
+
+        /* Define different background colors for each box */
+        .box:nth-child(1) {
+            background-color: #EDFFEF;
+            ;
+            width: 244px;
+            height: 88px;
+        }
+
+        .box:nth-child(2) {
+            background-color: #F4F2FF;
+            width: 244px;
+            height: 88px;
+        }
+
+        .box:nth-child(3) {
+            background-color: #FFF2EC;
+            width: 244px;
+            height: 88px;
+
+        }
+
+        .progress-container {
+            width: 244px;
+            height: 88px;
+            position: relative;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .progress-circle {
+            width: 50px;
+            /* Adjust this value to set the circle's size */
+            height: 50px;
+            /* Should match the width for a perfect circle */
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-image {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            /* Ensure the image covers the circular container */
+            transform: rotate(0deg);
+            /* Rotate the image 45 degrees to make it diagonal */
+            padding-left: 5px;
+        }
+
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12px;
+            font-weight: bold;
+            color: #9B715D;
+        }
+
+        img {
+            size: 12px;
+            ;
+        }
+
+        .text3 {
+
+            list-style-type: none;
+            color: #55A55E;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    </style>
+
+
+
+
+<body>
+    <!-- Create three rectangular boxes -->
+    <div class="containerrect">
+
+        <div class="box">
+            <div class="progress-container">
+                <div class="progress-circle">
+                    <img src="images/Ellipse 69.png" alt="Progress Image" class="progress-image">
+
+                </div>
+                <div class="text3">
+                    <li>Daily Intake</li>
+                    <li><span style="font-weight: 700;color:#55A55E; ">5000 ml</span></li>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="progress-container">
+                <div class="progress-circle">
+                    <img src="images/Ellipse 69 (4).png" alt="Progress Image" class="progress-image">
+
+                </div>
+                <div class="text3">
+                    <li><span style="color:#5E5498;">Average Intake</span></li>
+                    <li><span style="font-weight: 700;color:#5E5498; ">2500ml</span></li>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="progress-container">
+                <div class="progress-circle">
+                    <img src="images/Ellipse 69 (6).png" alt="Progress Image" class="progress-image">
+                    <span class="progress-text">50%</span>
+
+                </div>
+                <div class="text3">
+                    <li><span style="color:#9B715D">Total Intake</span></li>
+                    <li><span style="font-weight: 700;color:#9B715D; ">17000ml</span></li>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
